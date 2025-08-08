@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="A simple stack visualizer to help you understand how stacks work." />
+    <meta name="keywords" content="stack, visualizer, data structures, programming, algorithms" />
+    <meta name="author" content="Abdelhalim Yasser" />
+    <title>Stack Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Stack Visualizer</h1>
+
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <i id="menu-icon" class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#" class="nav-link">How to work</a></li>
+                <li><a href="#" class="nav-link">View Implementation</a></li>
+                <li><a href="#" class="nav-link">My Github</a></li>
+                <li><a href="#" class="nav-link">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Stack Visualizer</h1>
+        <p class="subtitle">
+            A simple stack visualizer to help you understand how stacks work.
+        </p>
+
+        <div class="controls">
+            <input type="number" id="stack-input" placeholder="Enter a number" />
+            <div class="btn-group">
+                <button onclick="push()">Push</button>
+                <button onclick="pop()">Pop</button>
+                <button onclick="peek()">Peek</button>
+                <button onclick="printStack()">Print</button>
+                <button onclick="swapValues()">Swap</button>
+                <button onclick="reverseStack()">Reverse</button>
+                <button onclick="sortStack()">Sort</button>
+                <button onclick="clearStack()">Clear</button>
+            </div>
+        </div>
+
+        <div class="stack-stats-wrapper">
+            <div id="stack-container" class="stack-container"></div>
+
+            <div class="stats" id="stats">
+                <strong>Top:</strong> <span id="top">-</span><br />
+                <strong>Count:</strong> <span id="count">0</span><br />
+                <strong>Sum:</strong> <span id="sum">-</span><br />
+                <strong>Average:</strong> <span id="avg">-</span><br />
+                <strong>Max:</strong> <span id="max">-</span><br />
+                <strong>Min:</strong> <span id="min">-</span><br />
+            </div>
+        </div>
+
+        <div class="learn-more" id="learn-more">
+            <h2>Learn More Data Structures</h2>
+            <div class="controls">
+                <a href="#"><button>Queue</button></a>
+                <a href="#"><button>Linked List</button></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p style="color: #fff;">
+            Created by
+            <a href="https://github.com/abdelhalim-yasser" target="_blank"
+                style="color: blueviolet; text-decoration: none;">
+                Abdelhalim Yasser</a>
+        </p>
+        <p style="color: #fff;">Stack Visualizer © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
