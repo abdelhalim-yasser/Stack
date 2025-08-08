@@ -1,3 +1,3 @@
 # Stack
-#The implementation of the Stack in Data Structures using C and Java
+The implementation of the Stack in Data Structures using C and Java
 You can try it interactivly and learn how the stack works
