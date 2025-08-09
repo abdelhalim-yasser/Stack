@@ -5,7 +5,7 @@
 typedef struct
 {
     int top;
-    int entry[MAX];
+    int array[MAX];
 }Stack;
 
 
