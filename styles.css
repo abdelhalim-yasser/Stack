@@ -258,7 +258,7 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
     max-width: 90%;
-    width: 350px;
+    width: 500px;
     margin: 80px auto;
     position: relative;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -291,7 +291,11 @@ button:hover {
 
 @media (max-width: 600px) {
     .popup {
-        width: 90%;
+        width: 80%;
         font-size: 14px;
+    }
+
+    .learn-more {
+        width: 75%;
     }
 }
