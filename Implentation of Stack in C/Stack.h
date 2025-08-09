@@ -74,6 +74,9 @@ void removeDuplicates(Stack* s);
 // Stack reverse function to reverse the Stack
 void reverse(Stack* s);
 
+// Stack randmomize function to randmomize the stack
+void randmomize(Stack* s);
+
 // Stack swap function to swap data1 with data2
 void swapData(int data1, int data2, Stack* s);
 	
