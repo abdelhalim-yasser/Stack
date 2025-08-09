@@ -107,7 +107,7 @@ public class Stack {
 			System.exit(0);
 		}
 
-		return array[top];
+		return array[0];
 	}
 
 	// Stack isFound function to check if the specific element is found or not
