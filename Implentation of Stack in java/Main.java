@@ -38,6 +38,10 @@ public class Main
 		System.out.println("After reversing:");
 		s1.printStack();
 
+        stack.randomize();
+        System.out.println("After randomize:");
+        stack.printStack();
+		
 		s1.swapData(10, 40);
 		System.out.println("After swapping 10 and 40:");
 		s1.printStack();
