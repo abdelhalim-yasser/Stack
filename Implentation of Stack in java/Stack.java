@@ -289,7 +289,8 @@ public class Stack {
 			array[top - i] = temp;
 		}
 	}
-
+	
+    // Stack randmomize function to randmomize the stack
     public void randomize() {
         if (top <= 0) 
 		    return; 
