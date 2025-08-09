@@ -46,7 +46,7 @@ System.out.println("Index of 20: " + stack.getIndex(20));
 System.out.println("Element at index 2: " + stack.getElement(2));     
 System.out.println("Middle element: " + stack.getMiddle());           
 System.out.println("Last element: " + stack.getLast());               
-System.out.println("Is 30 found? " + stack.isFound(30));              /
+System.out.println("Is 30 found? " + stack.isFound(30));              
 ```
 ---
 
