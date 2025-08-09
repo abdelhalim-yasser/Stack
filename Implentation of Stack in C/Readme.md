@@ -9,7 +9,7 @@ It supports core stack operations as well as advanced utilities like sorting, re
 
 - `Stack.h` → The header of all stack functions.
 - `Stack.c` → Implementation of all stack functions.
-- `Main.c` → Example usage and testing.
+- `main.c` → Example usage and testing.
 
 ---
 
