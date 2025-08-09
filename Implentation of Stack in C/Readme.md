@@ -133,8 +133,8 @@ printf("Is s1 empty? %d\n", isEmpty(&s1));
 ---
 
 ## 📂 Requirements
-- C Compiler (GCC/Clang)
-- Basic knowledge of C and stack concept
+- C Compiler (GCC/Clang).
+- Basic knowledge of C and stack logic.
 
 ---
 
