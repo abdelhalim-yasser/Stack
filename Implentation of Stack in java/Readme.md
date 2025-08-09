@@ -42,18 +42,11 @@ System.out.println("Is stack empty? " + stack.isEmpty());  // false
 ## 🚀 Example Usage
 
 ```java
-Stack stack = new Stack(5);
-
-stack.push(10);
-stack.push(20);
-stack.push(30);
-stack.push(40);
-
-System.out.println("Index of 20: " + stack.getIndex(20));             // 1
-System.out.println("Element at index 2: " + stack.getElement(2));     // 30
-System.out.println("Middle element: " + stack.getMiddle());           // 20
-System.out.println("Last element: " + stack.getLast());               // 40
-System.out.println("Is 30 found? " + stack.isFound(30));              // true
+System.out.println("Index of 20: " + stack.getIndex(20));            
+System.out.println("Element at index 2: " + stack.getElement(2));     
+System.out.println("Middle element: " + stack.getMiddle());           
+System.out.println("Last element: " + stack.getLast());               
+System.out.println("Is 30 found? " + stack.isFound(30));              /
 ```
 ---
 
@@ -64,18 +57,11 @@ System.out.println("Is 30 found? " + stack.isFound(30));              // true
 - `min()` - Return the minimum value.
 - `size()` - Return the current number of elements.
 ```java
-Stack stack = new Stack(5);
-
-stack.push(10);
-stack.push(20);
-stack.push(30);
-stack.push(40);
-
-System.out.println(list.countList());   // 4
-System.out.println(list.sumNums());     // 100
-System.out.println(list.averageNums()); // 25.0
-System.out.println(list.maxList());     // 40
-System.out.println(list.minList());     // 10
+System.out.println(list.countList());   
+System.out.println(list.sumNums());     
+System.out.println(list.averageNums()); 
+System.out.println(list.maxList());     
+System.out.println(list.minList());     
 ```
 ---
 
@@ -89,19 +75,12 @@ System.out.println(list.minList());     // 10
 
 ## 🚀 Example Usage
 ```java
-Stack stack = new Stack(5);
-
-stack.push(10);
-stack.push(20);
-stack.push(30);
-stack.push(30);
-
-stack.removeDuplicates(); // removes duplicate 30
-stack.reverse();          // reverse the stack
-stack.randmomize()        // randmomize the stack
-stack.sort();             // sort it
-stack.swap(10, 30);       // swap values 10 and 30
-stack.swapIndex(1, 3)     // swap index 1 and 3
+stack.removeDuplicates(); 
+stack.reverse();          
+stack.randmomize()        
+stack.sort();             
+stack.swap(10, 30);       
+stack.swapIndex(1, 3)     
 ```
 
 ---
@@ -110,13 +89,6 @@ stack.swapIndex(1, 3)     // swap index 1 and 3
 - `toArray()` - Return a copy of the stack as an array.
 - `toStack(int[] array)` - Create a new stack from an array.
 ``` java
-Stack stack = new Stack(3);
-
-stack.push(10);
-stack.push(20);
-stack.push(30);
-stack.push(30);
-
 int[] arr = stack.toArray();
 System.out.println("Converted to array:");
 for (int val : arr) System.out.print(val + " ");
