@@ -1,4 +1,5 @@
 package mypackage;
+import java.util.Random;
 
 public class Stack {
 	private int top;
@@ -289,6 +290,19 @@ public class Stack {
 		}
 	}
 
+    public void randomize() {
+        if (top <= 0) 
+		    return; 
+
+        Random rand = new Random();
+        for (int i = 0; i <= top; i++) {
+             int randomIndex = rand.nextInt(top + 1); 
+             int temp = array[i];
+             array[i] = array[randomIndex];
+             array[randomIndex] = temp;
+         }
+    }
+	
 	// Stack swap function to swap data1 with data2
 	public void swapData(int data1, int data2) {
 		if (top == -1) {
