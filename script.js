@@ -27,7 +27,6 @@ window.addEventListener("resize", () => {
     }
 });
 
-
 // Stack operations
 let stack = [];
 
@@ -115,6 +114,24 @@ function reverseStack() {
     renderStack();
 }
 
+function randomize() {
+    if (stack.length === 0) {
+        alert("Stack is empty, nothing to be randomized!");
+        return;
+    }
+
+    for (let i = stack.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let temp = stack[i];
+        stack[i] = stack[j];
+        stack[j] = temp;
+    }
+
+    updateStats();
+    renderStack(); 
+}
+
+
 function sortStack() {
     stack.sort((a, b) => a - b);
     updateStats();
@@ -128,11 +145,11 @@ function clearStack() {
 }
 
 function openHelp() {
-  document.getElementById("helpOverlay").style.display = "block";
+    document.getElementById("helpOverlay").style.display = "block";
 }
 function closeHelp() {
-  document.getElementById("helpOverlay").style.display = "none";
+    document.getElementById("helpOverlay").style.display = "none";
 }
 window.onload = function () {
-  openHelp();
+    openHelp();
 };
