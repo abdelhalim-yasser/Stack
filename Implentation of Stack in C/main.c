@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
-#include "stack.h"
+#include "Stack.h"
 
 int main() {
 	Stack s1;
