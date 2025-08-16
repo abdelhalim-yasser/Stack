@@ -53,15 +53,17 @@ System.out.println("Is 30 found? " + stack.isFound(30));
 ### 📊 Statistics
 - `sum()` - Return the sum of all elements.
 - `average()` - Return the average value.
+- `repeated(int data)`  - Return the number of repetion of num in the stack
 - `max()` - Return the maximum value.
 - `min()` - Return the minimum value.
 - `size()` - Return the current number of elements.
 ```java
-System.out.println(list.countList());   
-System.out.println(list.sumNums());     
-System.out.println(list.averageNums()); 
-System.out.println(list.maxList());     
-System.out.println(list.minList());     
+System.out.println(stack.countList());   
+System.out.println(stack.sumNums());     
+System.out.println(stack.averageNums());
+System.out.println(stack.repeated(2));
+System.out.println(stack.maxList());     
+System.out.println(stack.minList());     
 ```
 ---
 
