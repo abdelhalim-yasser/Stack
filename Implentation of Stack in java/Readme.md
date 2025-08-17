@@ -161,8 +161,8 @@ concatStack.printStack();
 
 For feedback or contributions:
 
-- GitHub: [abdelhalim-yasser](https://github.com/abdelhalim-yasser)
-- LinkedIn: [abdelhalim-yasser](https://www.linkedin.com/in/abdelhalim-yasser)
+- GitHub: [abdelhalimYasser](https://github.com/abdelhalimYasser)
+- LinkedIn: [abdelhalimyasser](https://www.linkedin.com/in/abdelhalimyasser)
 
 ---
 
