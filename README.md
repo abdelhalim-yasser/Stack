@@ -52,6 +52,4 @@ The last element inserted is the first one to be removed.
 ---
 
 
----
-
 💡 *This project is made for learning purposes and to demonstrate stack operations visually.*
