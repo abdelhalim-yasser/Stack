@@ -57,6 +57,8 @@ System.out.println("Is 30 found? " + stack.isFound(30));
 - `max()` - Return the maximum value.
 - `min()` - Return the minimum value.
 - `size()` - Return the current number of elements.
+
+## 🚀 Example Usage
 ```java
 System.out.println(stack.countList());   
 System.out.println(stack.sumNums());     
@@ -90,6 +92,8 @@ stack.swapIndex(1, 3)
 ### 🔁 Conversion
 - `toArray()` - Return a copy of the stack as an array.
 - `toStack(int[] array)` - Create a new stack from an array.
+
+## 🚀 Example Usage
 ``` java
 int[] arr = stack.toArray();
 System.out.println("Converted to array:");
@@ -105,7 +109,8 @@ System.out.println("s2 stack:");
 - `clone()` - Return a deep copy of the stack.
 - `equals(Stack stack)` - Check if two stacks are equal.
 - `concat(Stack stack)` - Concatenate another stack to this one.
-
+- 
+## 🚀 Example Usage
 ```java
 Stack stack1 = new Stack(5);
 Stack stack2 = new Stack(5);
