@@ -75,7 +75,7 @@ System.out.println(stack.minList());
 - `sort()` - Sort the stack in ascending order.
 - `randomize` -Randomize the stack elements.
 - `swap(int data1, int data2)` - Swap two values in the stack (if both exist).
-- `swap(int index1, int index2)` - Swap two indices in the stack (if both exist).
+- `swapIndex(int index1, int index2)` - Swap two indices in the stack (if both exist).
 
 ## 🚀 Example Usage
 ```java
@@ -109,7 +109,7 @@ System.out.println("s2 stack:");
 - `clone()` - Return a deep copy of the stack.
 - `equals(Stack stack)` - Check if two stacks are equal.
 - `concat(Stack stack)` - Concatenate another stack to this one.
-- 
+  
 ## 🚀 Example Usage
 ```java
 Stack stack1 = new Stack(5);
